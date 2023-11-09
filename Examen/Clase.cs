@@ -17,12 +17,12 @@ namespace Examen
         }
 
         // Implementación del método MostrarAlumno de la clase Alumno
-        public override void MostrarAlumno()
+        public override void Mostraralumno()
         {
             Console.WriteLine("Datos del Alumno:");
             Console.WriteLine("");
             Console.WriteLine($"Nombre: {Nombre}");
-            Console.WriteLine($"Número de Cuenta: {cuenta}");
+            Console.WriteLine($"Número de Cuenta: {Numerocuenta}");
             Console.WriteLine($"Email: {Correo}");
         }
 
